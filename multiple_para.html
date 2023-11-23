@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Block level styling */
+    .paragraph {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    /* Element level styling within the block */
+    .paragraph__title {
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    /* Modifier for variation in styling */
+    .paragraph--highlight {
+      background-color: #ffefcc;
+    }
+
+    .paragraph--italic {
+      font-style: italic;
+    }
+
+    .paragraph--center {
+      text-align: center;
+    }
+
+    .paragraph--large {
+      font-size: 1.5em;
+    }
+
+    .paragraph--blue {
+      color: #3498db;
+    }
+
+    .paragraph--borderless {
+      border: none;
+    }
+  </style>
+</head>
+<body>
+    
+  <div class="paragraph">
+    <h2 class="paragraph__title">Paragraph 1</h2>
+    <p>This is a regular paragraph with the default styling.</p>
+  </div>
+
+  <div class="paragraph paragraph--highlight">
+    <h2 class="paragraph__title">Paragraph 2</h2>
+    <p>This paragraph has a highlight background.</p>
+  </div>
+
+  <div class="paragraph paragraph--italic">
+    <h2 class="paragraph__title">Paragraph 3</h2>
+    <p>This paragraph is styled with italic text.</p>
+  </div>
+
+  <div class="paragraph paragraph--center">
+    <h2 class="paragraph__title">Paragraph 4</h2>
+    <p>This paragraph is centered.</p>
+  </div>
+
+  <div class="paragraph paragraph--large">
+    <h2 class="paragraph__title">Paragraph 5</h2>
+    <p>This paragraph has a larger font size.</p>
+  </div>
+
+  <div class="paragraph paragraph--blue">
+    <h2 class="paragraph__title">Paragraph 6</h2>
+    <p>This paragraph has a blue text color.</p>
+  </div>
+
+  <div class="paragraph paragraph--borderless">
+    <h2 class="paragraph__title">Paragraph 7</h2>
+    <p>This paragraph has no border.</p>
+  </div>
+
+</body>
+</html>

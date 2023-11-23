@@ -1,0 +1,14 @@
+body{
+
+}
+
+.box2{
+    height: 120px;
+    width: 160px;
+    background-color: brown;
+    border-radius: 10px;
+}
+.box,.box1,.box2{
+    margin: 20px;
+    border: 2px solid black;
+}

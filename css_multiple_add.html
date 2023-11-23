@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="extranal_css.css">
+
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+
+        .box1{
+            /* this line target go box1 means second box */
+
+            height: 100px;
+            width: 150px;
+            background-color: blueviolet;
+            border-radius: 10px;
+
+        }
+
+
+    </style>
+
+
+
+</head>
+<body>
+<!-- the priority fo a css is 1) inline css 2) internal css 3) external css -->
+
+    <!-- frist box write a inline css -->
+    <div class="box"  style="height: 50px; width: 100px; background-color: aqua; border-radius: 10px;" >inline css box</div>
+
+    <!-- second bod write internal css in head tag in style tag -->
+    <div class="box1"> intenal css box</div>
+
+    <!-- trid box write a extranal css -->
+    <div class="box2">external css box</div>
+
+    <h3>all are same word but external css is relibale and esy to anderstad and file are fixeble to move other follder or import the outside css file</h3>
+
+
+</body>
+</html>
